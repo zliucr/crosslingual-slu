@@ -24,7 +24,7 @@ Despite the promising results of current cross-lingual models for spoken languag
 <img src="imgs/model.png" width=85%/>
 
 ## Data
-We evaluate our system on multilingual task-oriented dialogue dataset Published by [Schuster et al. (2019)](https://www.aclweb.org/anthology/N19-1380.pdf), which contains Dialog Natural Language Understanding data in English, Spanish and Thai. We put this dataset in the data folder under this repository. We also include the splited 1%, 3% and 5% data in Spanish for the few-shot cross-lingual experiments.
+We evaluate our system on multilingual task-oriented dialogue dataset Published by [Schuster et al. (2019)](https://www.aclweb.org/anthology/N19-1380.pdf), which contains Dialog Natural Language Understanding data in English, Spanish and Thai. We put this dataset in the data folder under this repository. We also include the splited 1%, 3% and 5% data in Spanish and Thai for the few-shot cross-lingual experiments.
 
 ## How to run
 ### Configuration
