@@ -7,7 +7,7 @@
 This repository is for the EMNLP-2020 paper: [Cross-lingual Spoken Language Understanding with Regularized Representation Alignment](https://arxiv.org/pdf/2009.14510.pdf)
 
 This code has been written using PyTorch. If you use any source codes or ideas included in this repository for your work, please cite the following paper.
-</pre>
+<pre>
 @inproceedings{liu2020cross,
   title={Cross-lingual Spoken Language Understanding with Regularized Representation Alignment},
   author={Liu, Zihan and Winata, Genta Indra and Xu, Peng and Lin, Zhaojiang and Fung, Pascale},
