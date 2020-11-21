@@ -62,20 +62,14 @@ def get_params():
     # zero-shot
     parser.add_argument("--zs", default=False, action="store_true", help="zero-shot adaptation")
 
-    # distribution visualization
-    parser.add_argument("--visualization", default=False, action="store_true", help="do visualization")
-    parser.add_argument("--sent_en", type=str, default="what will be the temperature tomorrow ?", help="Sentence example in English")
-    parser.add_argument("--sent_th", type=str, default="อุณหภูมิ จะ อยู่ ท เท่า ไหร่ พรุ่ง ?", help="Sentence example in Thai")
-
-    parser.add_argument("--indices_en", type=str, default="4-5", help="Word indices in English to show latent variables")
-    parser.add_argument("--indices_th", type=str, default="0-6", help="Word indices in Thai to show latent variables")
-
-    parser.add_argument("--n_points", type=int, default=3000, help="Number of sampled points")
-
     # random seed
     parser.add_argument("--seed", type=int, default=555, help="random seed (three seeds: 555, 666, 777)")
     
+    # label encoder checkpoint
     parser.add_argument("--ckpt_labelenc", type=str, default="", help="checkpoint for the label encoder")
+
+    # reload model
+    parser.add_argument("--model_path", type=str, default="", help="model path for reloading")
 
     params = parser.parse_args()
 
